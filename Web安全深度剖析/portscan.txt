@@ -1,0 +1,149 @@
+﻿langlangdeMacBook-Pro:Desktop reyiko$ sudo nmap -sS 10.11.32.1/24
+Password:
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-08-31 14:08 CST
+Nmap scan report for 10.11.32.1
+Host is up (0.0042s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 70:57:BF:23:56:01 (Unknown)
+
+Nmap scan report for 10.11.32.101
+Host is up (0.088s latency).
+All 1000 scanned ports on 10.11.32.101 are filtered
+MAC Address: 04:B1:67:69:AF:30 (Unknown)
+
+Nmap scan report for 10.11.32.108
+Host is up (0.0094s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+445/tcp  open  microsoft-ds
+1080/tcp open  socks
+MAC Address: 60:02:B4:C2:15:98 (Wistron Neweb)
+
+Nmap scan report for 10.11.32.148
+Host is up (0.0073s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+8090/tcp open  opsmessaging
+MAC Address: F0:18:98:76:F1:83 (Unknown)
+
+Nmap scan report for 10.11.32.155
+Host is up (0.0060s latency).
+All 1000 scanned ports on 10.11.32.155 are closed
+MAC Address: 1C:15:1F:B6:4B:5C (Huawei Technologies)
+
+Nmap scan report for 10.11.32.175
+Host is up (0.12s latency).
+Not shown: 863 closed ports, 134 filtered ports
+PORT      STATE SERVICE
+3306/tcp  open  mysql
+10000/tcp open  snet-sensor-mgmt
+49152/tcp open  unknown
+MAC Address: 48:BF:6B:EB:02:7C (Apple)
+
+Nmap scan report for 10.11.32.180
+Host is up (0.0065s latency).
+All 1000 scanned ports on 10.11.32.180 are closed
+MAC Address: 38:F9:D3:77:13:86 (Unknown)
+
+Nmap scan report for 10.11.32.183
+Host is up (0.0066s latency).
+Not shown: 996 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+3306/tcp  open  mysql
+9090/tcp  open  zeus-admin
+49152/tcp open  unknown
+MAC Address: 8C:85:90:22:2B:1A (Apple)
+
+Nmap scan report for 10.11.32.190
+Host is up (0.0047s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 2C:D0:5A:B1:60:A7 (Liteon Technology)
+
+Nmap scan report for 10.11.32.191
+Host is up (0.0047s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+443/tcp open  https
+902/tcp open  iss-realsecure
+MAC Address: 9C:D2:1E:F2:BB:DB (Hon Hai Precision Ind.)
+
+Nmap scan report for 10.11.32.194
+Host is up (0.0079s latency).
+All 1000 scanned ports on 10.11.32.194 are closed
+MAC Address: F0:0F:EC:E9:F4:98 (Unknown)
+
+Nmap scan report for 10.11.32.195
+Host is up (0.0046s latency).
+Not shown: 988 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+902/tcp   open  iss-realsecure
+912/tcp   open  apex-mesh
+8082/tcp  open  blackice-alerts
+8083/tcp  open  us-srv
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49161/tcp open  unknown
+49165/tcp open  unknown
+MAC Address: DC:85:DE:C8:9F:91 (AzureWave Technology)
+
+Nmap scan report for 10.11.32.204
+Host is up (0.0049s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: F0:18:98:A5:E7:1F (Unknown)
+
+Nmap scan report for 10.11.32.208
+Host is up (0.0053s latency).
+All 1000 scanned ports on 10.11.32.208 are closed
+MAC Address: F0:18:98:19:8D:34 (Unknown)
+
+Nmap scan report for 10.11.32.215
+Host is up (0.0057s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+111/tcp  open  rpcbind
+999/tcp  open  garcon
+1021/tcp open  exp1
+1023/tcp open  netvenuechat
+2049/tcp open  nfs
+MAC Address: 3C:15:C2:BA:1D:D8 (Apple)
+
+Nmap scan report for 10.11.32.225
+Host is up (0.0100s latency).
+All 1000 scanned ports on 10.11.32.225 are filtered
+MAC Address: 18:5E:0F:25:38:CF (Intel Corporate)
+
+Nmap scan report for 10.11.32.227
+Host is up (0.019s latency).
+Not shown: 998 closed ports
+PORT      STATE SERVICE
+8080/tcp  open  http-proxy
+50000/tcp open  ibm-db2
+MAC Address: 8C:85:90:57:C3:9A (Apple)
+
+Nmap scan report for 10.11.32.228
+Host is up (0.034s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: F0:18:98:81:A8:17 (Unknown)
+
+Nmap scan report for 10.11.32.197
+Host is up (0.000018s latency).
+Not shown: 967 closed ports, 32 filtered ports
+PORT    STATE SERVICE
+631/tcp open  ipp
+
+Nmap done: 256 IP addresses (19 hosts up) scanned in 444.51 seconds
